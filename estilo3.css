@@ -1,0 +1,16 @@
+.container{
+    display: flex; /* display flexível */
+    /* a direção é na horizontal */
+}
+.sidebar {
+    flex: 1;
+    background-color: gray;
+    height: 700px;
+    text-align: center;
+}
+.content{
+    flex: 3;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+}
