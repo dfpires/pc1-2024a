@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="./scripts/calculadora.js"> </script>
+</head>
+<body>
+    <header>
+        <h1>Trote Solidário Uni-FACEF</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="introducao.html">Introdução</a></li>
+            <li><a href="objetivo.html">Objetivo</a></li>
+            <li><a href="formato.html">Formato</a></li>
+            <li><a href="1etapa.html">1a. Etapa</a></li>
+            <li><a href="2etapa.html">2a. Etapa</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+            <li><a href="considera.html">Observações Finais</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Bem-vindo a Calculadora</h2>
+        <p> Calculadora do IMC - Índice de Massa Corpórea</p>
+        <form>
+            <div>
+                <label for="peso"> Peso </label>
+                <input type="number" id="peso"/>
+            </div>
+            <div>
+                <label for="altura"> Altura </label>
+                <input type="number" id="altura"/>
+            </div>
+            <div>
+                <button type="button" onclick="imc()"> 
+                    Calcula IMC 
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

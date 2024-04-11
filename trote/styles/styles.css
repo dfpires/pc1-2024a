@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  
+}
+#menu {
+  
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu .lista {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu .lista li {
+
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu .lista li a {
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background: #242424;
+}
+
+#container {
+    
+    margin: 20px;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+
+table {
+    margin: auto;
+}
+
+table td{
+    padding: 10px;
+    
+}
+
+.negrito {
+    font-weight: bold;
+}
